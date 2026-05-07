@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "https://event-platform-dtss.onrender.com/",
+  baseURL: "https://event-platform-dtss.onrender.com",
 });
 
 api.interceptors.request.use((config) => {
